@@ -108,7 +108,7 @@ Email: {student.email}
 
     try:        # Send request to local Ollama server
         response = requests.post(
-            "https://998b6e02fd36.ngrok-free.app/api/generate",
+            "http://localhost:11434/api/generate/",
             json={"model": "llama3.2:latest", "prompt": prompt, "stream": False},
         )
         response.raise_for_status()
