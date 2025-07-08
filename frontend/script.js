@@ -1,4 +1,4 @@
-const BASE_URL = "https://fealty-x-assignment-atgs.vercel.app/";
+const BASE_URL = "http://localhost:8000";
 
 const form = document.getElementById("studentForm");
 const studentList = document.getElementById("studentList");
