@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "https://fealtyx-backend.onrender.com";
 
 const form = document.getElementById("studentForm");
 const studentList = document.getElementById("studentList");
