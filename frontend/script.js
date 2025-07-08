@@ -1,4 +1,4 @@
-const BASE_URL = "https://fealtyx-backend.onrender.com";
+const BASE_URL = "https://fealty-x-assignment-atgs.vercel.app/";
 
 const form = document.getElementById("studentForm");
 const studentList = document.getElementById("studentList");
