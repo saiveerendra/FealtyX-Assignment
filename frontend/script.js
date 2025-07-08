@@ -1,4 +1,5 @@
-const BASE_URL = "https://fealtyx-assignment-1.onrender.com/";
+const BASE_URL = "https://your-backend.onrender.com";
+
 
 const form = document.getElementById("studentForm");
 const studentList = document.getElementById("studentList");
