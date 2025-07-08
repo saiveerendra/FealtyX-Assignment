@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>FealtyX Student Manager</title>
+  <style>
+    body { font-family: Arial; padding: 2rem; }
+    input, button { margin: 0.5rem 0; padding: 0.5rem; width: 100%; max-width: 400px; }
+    .student { margin: 1rem 0; border: 1px solid #ccc; padding: 1rem; border-radius: 6px; }
+    .response { white-space: pre-wrap; background: #f5f5f5; padding: 1rem; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+  <h1>FealtyX Student Manager</h1>
+
+  <h2>Add Student</h2>
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="number" id="age" placeholder="Age" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <button type="submit">Add Student</button>
+  </form>
+
+  
+  <div id="studentList">
+     <button id="Get All students" type="button">Get All Students</button>
+  </div>
+  <div id="get_student_by_id">
+    <input type="number" id="id" placeholder="Enter Id" required />
+    <button id="Student" type="button">Get Student Info</button>
+  </div>
+   <h2>Update Student</h2>
+   <div class="update">
+   
+        <input type="number" id="Id" placeholder="Enter Id" />
+       <button id="showUpdateBtn">Update</button>
+    </div>
+
+  <div id="updateForm" style="display: none; margin-top: 1rem;">
+    <input type="text" id="updateName" placeholder="New Name" />
+    <input type="number" id="updateAge" placeholder="New Age" />
+    <input type="email" id="updateEmail" placeholder="New Email" />
+    <button id="updateBtn">Submit Update</button>
+  </div>
+  <div class="delete">
+     <input type="number" id="delete_id" placeholder="Enter Id " required />
+       <button id="DeleteBtn">Delete</button>
+  </div>
+  <div id="summary">
+    <input type="number" id="summary_id" placeholder="Enter Id " required />
+       <button id="Summary">Get Summary</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
