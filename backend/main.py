@@ -14,7 +14,7 @@ app = FastAPI(title="FealtyX Student API")
 # ✅ Add CORS middleware AFTER app is created
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://fealty-x-assignment-caly.vercel.app"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
