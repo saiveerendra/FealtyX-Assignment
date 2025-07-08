@@ -76,10 +76,10 @@ The app sends a prompt to generate a one-sentence summary of the student based o
 ![Get All Students](images/get_all_students.png)
 
 ### GET `/students/{id}`
-![Get Student by ID](images/get_student_by_id(2).png)
+![Get Student by ID](images/get_student_by_id (2).png)
 
 ### PUT `/students/{id}`
-![Update Student](images/put_student.png)
+![Update Student](images/update_student.png)
 
 
 ### GET `/students/{id}/summary`
