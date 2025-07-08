@@ -70,19 +70,17 @@ The app sends a prompt to generate a one-sentence summary of the student based o
 ## 📷 Sample Results
 
 ### POST `/students`
-![Create Student Result](images/post_students.png)
+![Create Student Result](images/add_student.png)
 
 ### GET `/students`
-![Get All Students](images/get_students.png)
+![Get All Students](images/get_all_students.png)
 
 ### GET `/students/{id}`
-![Get Student by ID](images/get_student_by_id.png)
+![Get Student by ID](images/get_student_by_id(2).png)
 
 ### PUT `/students/{id}`
 ![Update Student](images/put_student.png)
 
-### DELETE `/students/{id}`
-![Delete Student](images/delete_student.png)
 
 ### GET `/students/{id}/summary`
 ![AI Summary](images/student_summary.png)
